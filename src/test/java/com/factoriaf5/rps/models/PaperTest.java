@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class RockTest {
+public class PaperTest {
     
     @Test
     public void justASimpleTest() {
@@ -12,9 +12,9 @@ public class RockTest {
     }
     @Test
     public void returnText(){
-        Rock roca = new Rock();
-        String message= roca.GetRock();
-        assertEquals("Rock",message);
+        Paper paper = new Paper();
+        String message= paper.GetPaper();
+        assertEquals("Paper",message);
     }
     
 }
